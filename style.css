@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fundo.jpg);
+}
+
+header{
+    background-color: rgba(25, 25, 251, 0.188);
+    color: aliceblue;
+    display: flex;
+    height: 64px;
+    font-size: 34px;
+    justify-content:center;
+    text-shadow: aliceblue 0.04000em 0.04000em;
+    position: sticky;
+    width: 100%;
+}
+
+.topo{
+    padding: 15px;
+}
+
+.fonteAp{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.fonteNome{
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow: aliceblue 0.04000em 0.04000em;
+}
+
+.fonteSOBRE{
+    color: aliceblue;
+    font-size: 40px;
+    text-shadow: aliceblue 0.04000em 0.04000em;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 100px;
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 255, 255) ;
+}
+
+
+footer.fixar-rodape{
+    background-color: rgba(25, 25, 251, 0.188);
+    bottom: 0;
+    left: 0;
+    height: 64px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+  }
+
+  .fonteSobre{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .sobre-mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    border: 1px solid rgba(25, 25, 251, 0.188);
+    background-image: url(fundo.jpg);
+    height: 100%;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header a, a:visited{
+    color: aliceblue;
+  }
+
+  
