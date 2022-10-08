@@ -5,6 +5,7 @@
 
 body{
     background-image: url(fundo.jpg);
+    flex-wrap: wrap;
 }
 
 header{
@@ -13,10 +14,11 @@ header{
     display: flex;
     height: 64px;
     font-size: 34px;
-    justify-content:center;
+    justify-content:flex-start;
     text-shadow: aliceblue 0.04000em 0.04000em;
     position: sticky;
     width: 100%;
+    box-shadow: 0px 2px 14px #000;
 }
 
 .topo{
@@ -26,12 +28,18 @@ header{
 .fonteAp{
     color: aliceblue;
     font-size: 30px;
+    box-shadow: 0px 2px 14px #000;
+    text-align: center;
 }
 
+.fonte-eu{
+    font-size: 20px;
+}
 .fonteNome{
     color: aliceblue;
     font-size: 40px;
-    text-shadow: aliceblue 0.04000em 0.04000em;
+    
+    box-shadow: 0px 2px 14px #000;
 }
 
 .fonteSOBRE{
@@ -52,7 +60,7 @@ main{
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 10px solid rgb(255, 255, 255) ;
+    box-shadow: 0px 2px 14px #000;
 }
 
 
@@ -64,6 +72,10 @@ footer.fixar-rodape{
     position: fixed;
     width: 100%;
     text-align: center;
+  }
+
+  .sombra{
+    text-shadow: aliceblue 0.04000em 0.04000em;
   }
 
   .fonteSobre{
@@ -81,7 +93,7 @@ footer.fixar-rodape{
     background-image: url(fundo.jpg);
     height: 100%;
     text-align: center;
-    border-radius: 50%;
+    box-shadow: 0px 2px 14px #000;
   }
 
   article{
@@ -95,4 +107,13 @@ footer.fixar-rodape{
     color: aliceblue;
   }
 
-  
+  .skills{
+    display: grid;
+    grid-template-columns: 1fr;
+    color: aliceblue;
+    border: 1px solid rgba(25, 25, 251, 0.188);
+    background-image: url(fundo.jpg);
+    text-align: center;
+    box-shadow: 0px 2px 14px #000;
+    margin: 200px;
+}
